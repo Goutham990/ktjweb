@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .intro {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .intro-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro-image img {
+    width: 300px;
+  }
+  
+  .intro-text {
+    margin-left: 40px;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .best-selling-dishes {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .dish-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .dish-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius:5px;
+  }
+  
+  .dish-image {
+    position: relative;
+  }
+  
+  .dish-image img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .type {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .dish-details {
+    padding: 20px;
+  }
+  
+  .dish-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dish-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .add-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .recommendations {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .review-cards {
+    display: flex;
+    background-position-x: center;
+    justify-content: space-between;
+  }
+  
+  .review-card {
+    width: 100px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .review-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .review-details h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .review-details p {
+    font-size: 14px;
+  }
+  
+  .review-form {
+    margin-top: 40px;
+  }
+  
+  .review-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+
+  .particle{
+
+    position: absolute;
+    
+    width: width px;
+    
+    height: height px;
+    
+    border-radius: 50%;
+    
+    }
+    
+    .text{
+    
+    position: absolute; width: width px;
+    
+    line-height: _height px; opacity: 0;
+    
+    overflow: hidden; z-index: -1;
+    
+    content: '';
+    
+    display: inline-block;
+    
+    position: absolute;
+    
+    }
+    
+    .background{
+    
+    position: absolute;
+    
+    top: 0;
+    
+    height: 188vh;
+    
+    width: 0;
+    
+    animation: background-animation 2s ease-in-out 4s 1 normal forwards;
+    }
+  
